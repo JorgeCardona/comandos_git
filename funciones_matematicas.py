@@ -45,7 +45,13 @@ def piso(x, y):
     
     resultado = math.floor(x/y)
     print(f'el piso de {x} dividido {y} es {resultado}')
-                  
+
+def techo(x, y):
+    import math
+    
+    resultado = math.ceil(x/y)
+    print(f'el techo de {x} dividido {y} es {resultado}')
+                      
 def ejecutar_funciones():
     
     x, y = 7, 0
@@ -58,6 +64,7 @@ def ejecutar_funciones():
     raiz_cuadrada(x, y)
     logaritmo(x, y)
     piso(x, y)
+    techo(x, y)
                        
 if __name__ == "__main__":
     ejecutar_funciones()
