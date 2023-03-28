@@ -22,7 +22,12 @@ def division_entera(x, y):
     
     resultado =  x // y
     print(f'el resultado de la DIVISION ENTERA {x} // {y} es {resultado}')
-             
+
+def potencia(x, y):
+    
+    resultado =  x ** y
+    print(f'el resultado de la POTENCIA  {x} elevado a {y} es {resultado}')
+                 
 def ejecutar_funciones():
     
     x, y = 7, 0
@@ -31,6 +36,7 @@ def ejecutar_funciones():
     multiplicacion(x, y)
     division_decimal(x, y)
     division_entera(x, y)
+    potencia(x, y)
                                   
 if __name__ == "__main__":
     ejecutar_funciones()
