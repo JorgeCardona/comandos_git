@@ -33,7 +33,13 @@ def raiz_cuadrada(x, y):
     
     resultado =  math.sqrt(abs(x + y))
     print(f'el resultado de la raiz cuadrada del valor absoluto de {x} + {y} es {resultado}')
-                    
+
+def logaritmo(x, y):
+    import math
+    
+    resultado = math.log(abs(x), abs(y))
+    print(f'el logaritmo del valor absoluto de {x} en base {y} es {resultado}')
+                      
 def ejecutar_funciones():
     
     x, y = 7, 0
@@ -44,6 +50,7 @@ def ejecutar_funciones():
     division_entera(x, y)
     potencia(x, y)
     raiz_cuadrada(x, y)
+    logaritmo(x, y)
                        
 if __name__ == "__main__":
     ejecutar_funciones()
