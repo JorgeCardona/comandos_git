@@ -39,7 +39,13 @@ def logaritmo(x, y):
     
     resultado = math.log(abs(x), abs(y))
     print(f'el logaritmo del valor absoluto de {x} en base {y} es {resultado}')
-                      
+
+def piso(x, y):
+    import math
+    
+    resultado = math.floor(x/y)
+    print(f'el piso de {x} dividido {y} es {resultado}')
+                  
 def ejecutar_funciones():
     
     x, y = 7, 0
@@ -51,6 +57,7 @@ def ejecutar_funciones():
     potencia(x, y)
     raiz_cuadrada(x, y)
     logaritmo(x, y)
+    piso(x, y)
                        
 if __name__ == "__main__":
     ejecutar_funciones()
