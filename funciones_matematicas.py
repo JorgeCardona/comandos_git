@@ -57,10 +57,16 @@ def factorial(x, y):
     
     resultado = math.factorial(abs(x)) + math.factorial(abs(y))
     print(f'la suma del factorial de {x} mas, la suma del factorial de {y} es {resultado}')
-                       
+
+def imaginarios(x, y):
+    
+    resultado = x * y
+    print(f'la multiplicacion del numero imaginario {x} con el numero imaginario {y} es {resultado}')
+                          
 def ejecutar_funciones():
     
     x, y = 7, 0
+    xi, yi = 10j, 3.1j
     suma(x, y)
     resta(x, y)
     multiplicacion(x, y)
@@ -72,6 +78,7 @@ def ejecutar_funciones():
     piso(x, y)
     techo(x, y)
     factorial(x, y)
+    imaginarios(xi, yi)
                        
 if __name__ == "__main__":
     ejecutar_funciones()
