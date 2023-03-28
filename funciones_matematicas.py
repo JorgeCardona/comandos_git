@@ -25,7 +25,7 @@ def division_entera(x, y):
              
 def ejecutar_funciones():
     
-    x, y = 7, 5
+    x, y = 7, 0
     suma(x, y)
     resta(x, y)
     multiplicacion(x, y)
