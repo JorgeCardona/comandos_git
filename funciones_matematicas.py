@@ -12,13 +12,19 @@ def multiplicacion(x, y):
     
     resultado =  x * y
     print(f'el resultado de la MULTIPLICACION  {x} * {y} es {resultado}')
-            
+
+def division_decimal(x, y):
+    
+    resultado =  x / y
+    print(f'el resultado de la DIVISION DECIMAL {x} / {y} es {resultado}')
+           
 def ejecutar_funciones():
     
     x, y = 7, 5
     suma(x, y)
     resta(x, y)
     multiplicacion(x, y)
+    division_decimal(x, y)
                                   
 if __name__ == "__main__":
     ejecutar_funciones()
