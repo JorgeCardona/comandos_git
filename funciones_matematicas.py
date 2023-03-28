@@ -51,7 +51,13 @@ def techo(x, y):
     
     resultado = math.ceil(x/y)
     print(f'el techo de {x} dividido {y} es {resultado}')
-                      
+
+def factorial(x, y):
+    import math
+    
+    resultado = math.factorial(abs(x)) + math.factorial(abs(y))
+    print(f'la suma del factorial de {x} mas, la suma del factorial de {y} es {resultado}')
+                       
 def ejecutar_funciones():
     
     x, y = 7, 0
@@ -65,6 +71,7 @@ def ejecutar_funciones():
     logaritmo(x, y)
     piso(x, y)
     techo(x, y)
+    factorial(x, y)
                        
 if __name__ == "__main__":
     ejecutar_funciones()
